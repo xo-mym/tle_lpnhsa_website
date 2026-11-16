@@ -57,7 +57,7 @@ nav a:hover,.menu-button:hover,.menu-button.active{color:#d71920}
 
 .hero{
   min-height:720px;position:relative;display:flex;align-items:center;padding:80px 8%;
-  background:linear-gradient(90deg,#031e43e8 0%,#073b78b0 44%,#073b7820 100%),url("../LPNHSA_COVER.jpg") center/cover;
+  background:linear-gradient(90deg,#031e43e8 0%,#073b78b0 44%,#073b7820 100%),url("LPNHSA_COVER.jpg") center/cover;
   overflow:hidden
 }
 .hero:after{content:"";position:absolute;inset:auto -10% -80px;height:180px;background:#f7faff;transform:skewY(-4deg)}
@@ -85,7 +85,7 @@ section{padding:90px 8%}.section-head{text-align:center;max-width:750px;margin:0
 .quick-num{font-size:10px;font-weight:900;color:#d71920;letter-spacing:2px}.quick-card h3{font-size:16px;color:#073b78;margin:5px 0}.quick-card p{font-size:12px;color:#6a7d90;margin-bottom:9px}.quick-card a{font-size:10px;font-weight:900;color:#d71920}
 
 .about{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
-.about-photo{min-height:490px;border-radius:26px;background:linear-gradient(145deg,#073b7833,#d7192022),url("../momentno.1.jpg") center/cover;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.about-photo{min-height:490px;border-radius:26px;background:linear-gradient(145deg,#073b7833,#d7192022),url("momentno.1.jpg") center/cover;box-shadow:var(--shadow);position:relative;overflow:hidden}
 .about-photo:after{content:"LPNHS • ALMANZA";position:absolute;left:22px;bottom:20px;padding:8px 12px;background:#073b78dd;color:#fff;border-left:4px solid #d71920;font-size:10px;font-weight:900;letter-spacing:1px}
 .about-copy small{font-size:10px;color:#d71920;font-weight:900;letter-spacing:3px}.about-copy h2{font-size:42px;line-height:1.1;color:#073b78;margin:10px 0 18px}.about-copy p{color:#66788a;font-size:14px;margin-bottom:14px}
 .feature-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.feature{padding:15px;border:1px solid #e1eaf3;background:#fff;border-radius:12px}.feature b{color:#073b78;font-size:12px}.feature span{display:block;color:#74869a;font-size:11px;margin-top:3px}
@@ -99,7 +99,7 @@ section{padding:90px 8%}.section-head{text-align:center;max-width:750px;margin:0
 
 .hymns{background:#fff}.hymn-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.hymn-card{border:1px solid #e0e9f3;border-radius:18px;padding:24px;background:linear-gradient(145deg,#fff,#f5f9fe);transition:.25s;position:relative;overflow:hidden}.hymn-card:after{content:"♫";position:absolute;right:15px;top:7px;font-size:70px;color:#073b7808;font-weight:900}.hymn-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}.hymn-card span{font-size:9px;color:#d71920;font-weight:900;letter-spacing:2px}.hymn-card h3{font-size:18px;color:#073b78;margin:7px 0 13px}.hymn-card a{font-size:10px;font-weight:900;color:#d71920}
 
-.moments{background:#f4f8fd}.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:210px 210px;gap:10px}.gallery-item{border-radius:16px;background-size:cover;background-position:center;cursor:pointer;position:relative;overflow:hidden;transition:.3s}.gallery-item:hover{transform:scale(1.012);box-shadow:0 15px 35px #062e6330}.gallery-item:after{content:"VIEW";position:absolute;inset:auto 13px 13px auto;background:#073b78dd;color:#fff;padding:5px 8px;border-radius:7px;font-size:8px;font-weight:900;letter-spacing:1px}.g1{grid-row:span 2;background-image:url("../momentno.2.jpg")}.g2{background-image:url("../momentno.3.jpg")}.g3{background-image:url("../momentno.4.jpg")}.g4{grid-column:2/4;background-image:url("../momentno.5.jpg")}
+.moments{background:#f4f8fd}.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:210px 210px;gap:10px}.gallery-item{border-radius:16px;background-size:cover;background-position:center;cursor:pointer;position:relative;overflow:hidden;transition:.3s}.gallery-item:hover{transform:scale(1.012);box-shadow:0 15px 35px #062e6330}.gallery-item:after{content:"VIEW";position:absolute;inset:auto 13px 13px auto;background:#073b78dd;color:#fff;padding:5px 8px;border-radius:7px;font-size:8px;font-weight:900;letter-spacing:1px}.g1{grid-row:span 2;background-image:url("momentno.2.jpg")}.g2{background-image:url("momentno.3.jpg")}.g3{background-image:url("momentno.4.jpg")}.g4{grid-column:2/4;background-image:url("momentno.5.jpg")}
 
 .team-preview{background:#fff}.team-card{max-width:950px;margin:auto;border-radius:24px;padding:30px;background:linear-gradient(135deg,#062e63,#0b4f9c);display:flex;align-items:center;gap:30px;color:#fff;box-shadow:var(--shadow)}.lead-avatar{width:120px;height:120px;flex:0 0 120px;border-radius:50%;border:5px solid #fff;background:#d71920;display:grid;place-items:center;font-size:30px;font-weight:900;overflow:hidden}.lead-avatar img{width:100%;height:100%;object-fit:cover;display:block}.lead-initials{display:none;width:100%;height:100%;place-items:center}.team-card small{color:#ffccd0;font-size:10px;font-weight:900;letter-spacing:2px}.team-card h3{font-size:28px;margin:4px 0}.team-card p{font-size:13px;color:#dceaf9}.team-card a{display:inline-block;margin-top:12px;font-size:10px;font-weight:900;color:#fff;border:1px solid #ffffff55;padding:9px 13px;border-radius:999px}
 
