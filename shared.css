@@ -1,0 +1,13 @@
+/* shared navigation - kept consistent across all pages */
+.shared-site-nav{position:relative;z-index:3000;}
+.shared-site-nav>ul{display:flex;align-items:center;list-style:none;gap:2px;margin:0;padding:0;}
+.shared-site-nav>ul>li{position:relative;list-style:none;}
+.shared-site-nav a,.shared-site-nav .menu-button{border:0;background:none;padding:9px 10px;color:#073b78;font-size:11px;font-weight:800;cursor:pointer;text-decoration:none;display:block;white-space:nowrap;}
+.shared-site-nav a:hover,.shared-site-nav .menu-button:hover,.shared-site-nav .menu-button.active{color:#d71920;}
+.shared-site-nav .menu-button::after{content:" ▾";font-size:8px;}
+.shared-site-nav .dropdown{display:none;position:absolute;top:100%;left:0;width:245px;background:#fff;border:1px solid #e3ebf4;border-top:4px solid #d71920;box-shadow:0 20px 40px #102a4320;list-style:none;border-radius:0 0 12px 12px;overflow:hidden;margin:0;padding:0;}
+.shared-site-nav .dropdown.open{display:block;}
+.shared-site-nav .dropdown li{list-style:none;margin:0;padding:0;}
+.shared-site-nav .dropdown a{display:block;padding:11px 14px;color:#17365d;font-weight:600;border-bottom:1px solid #edf1f6;}
+.shared-site-nav .dropdown a:hover{background:#f4f8fd;color:#d71920;}
+@media(max-width:900px){.shared-site-nav>ul{flex-wrap:wrap;justify-content:flex-end}.shared-site-nav .dropdown{position:absolute;right:0;left:auto;max-width:calc(100vw - 30px);}.shared-site-nav .dropdown a{font-size:11px;}}
